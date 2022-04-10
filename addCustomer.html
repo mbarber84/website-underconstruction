@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Harveys of Stretton Add Customer</title>
+    <link rel="stylesheet" href = "stylesCustomer.css">
+
+</head>
+
+
+
+<body>
+    <header>
+        <img src="HOSImages/HOS logo-1 (2).jpg" alt = "Company logo"><p><a href="HOSindex.html"><button class = "homebtn" type="button">Home Page</button></a></p>
+
+    </header>
+
+
+
+    <main>
+        <h1>Welcome to the Harveys of Stretton</h1>
+        <h2>Enter The New Customer Details</h2>
+        <p>Please fill in all the details below correctly:</p>
+
+        <div class="testbox">
+            <form action="addCustomer.php" method="post" name="inputCustomer">
+              <div class="banner">
+                <h3>Customer Details Form</h3>
+              </div>
+              <div class="item">
+                <p>Customer ID</p>
+                <div class="name-item">
+                   <input type="text" name="customerID" placeholder="CustomerID" required/>
+                </div>
+                </div>        
+
+              <div class="item">
+                <p>Name</p>
+                <div class="name-item">
+                   <input type="text" name="title" placeholder="Title" required />
+                  <input type="text" name="firstName" placeholder="First Name" required />
+                  <input type="text" name="lastName" placeholder="Last Name" required />
+                </div>
+              </div>
+              <div class="item">
+                <p>Contact Address</p>
+                <input type="text" name="address1" placeholder="Street address" required />
+                <input type="text" name="address2" placeholder="Street address line 2" />
+                <div class="city-item">
+                  <input type="text" name="county" placeholder="County" required />
+                  <input type="text" name="postCode" placeholder="Postcode / Zip code"  required/>
+                </div>
+              </div>
+              <div class="item">
+                <p>Phone</p>
+                <input type="text" name="telephone" required />
+              </div>
+              <div class="item">
+                <p>Email</p>
+                <input type="text" name="email" required />
+              </div>
+              <div class="item">
+                <p>Notes</p>
+                <textarea rows="5"></textarea>
+              </div>
+              <div class="btn-block">
+                <button type="submit" href="/">submit</button>
+                <button type="reset" href="/">Reset</button>
+              </div>
+            </form>
+          </div>
+        
+
+    </main>
+
+
+
+    <footer></footer>
+
+
+
+
+</body>
+
+
+
+</html>

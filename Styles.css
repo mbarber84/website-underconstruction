@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-image: url(images/collegephoto.jpg);
+  height: 400px;
+  padding-top: 20px;
+  border-style: solid;
+  border-color: #000000 #FF7A00;
+  border-radius: 10px;
+}
+
+img {
+  width: 5cm;
+  height: auto;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  color: #9C7C38;
+  font-size: 40px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  text-shadow: 2px 2px #070707;
+}
+
+h2 {
+  color: rgb(5, 5, 5);
+  font-size: 23px;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(5, 5, 5);
+  font-size: 19px;
+  text-align: center;
+}
+
+th {
+  font: bold;
+  font-size: 23px;
+  color: white;
+}
+
+td {
+  text-align: left;
+  padding-right: 20px;
+  color: white;
+}
+
+P {
+  text-align: left;
+  margin: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+div.single {
+  background-color: #000000;
+  width: 33%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #FF7A00;
+}
+
+div.single h2 {
+  text-align: left;
+  color: white;
+}
+
+div.single h3 {
+  text-align: left;
+  color: white;
+}
+
+section.div-single {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  flex-direction: row;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+div.triple {
+  background-color: #000000;
+  width: 33%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #FF7A00;
+}
+
+section.div-triple {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  flex-direction: row;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.img-div-triple {
+  width: 5.25cm;
+  opacity: 0.8;
+  padding: 5px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  background-color: #FF7A00;
+  padding: 10px;
+  margin: 5px 20px 10px 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.home-nav {
+  border-bottom: 2.5px solid transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.home-nav:hover {
+  border-bottom: 2.5px solid #000000;
+}
+
+ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 0 20px 0 0;
+  color: white;
+}
+
+
+
+footer {
+  margin: 20px;
+}

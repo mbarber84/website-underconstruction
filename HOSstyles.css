@@ -1,0 +1,91 @@
+/*imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Special+Elite&display=swap');
+
+/*everything selector*/
+* {
+  box-sizing: border-box;
+  color: rgb(57, 36, 134);
+  font-family: sans-serif;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(HOSImages/thumbnail_test2.jpg);
+  background-repeat: inherit;
+}
+
+header{
+  margin-top: 2%;
+  text-align: center;
+}
+
+img{
+    width: 8cm;
+    height: auto;
+    border-radius: 50%;
+}
+a.mbHome{
+  border-bottom: 2.5px solid transparent;
+  position:absolute;
+  right:50px;
+  top:50px;
+  color: white;
+  }
+  .mbHome:hover {
+    border: 5px solid #FF7A00;
+  }
+img.homelogo{
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.homebtn{
+  position:absolute;
+  right:50px;
+  top:50px;
+  background-color: rgb(17, 77, 17);
+}
+
+button{
+    background: linear-gradient(to right, rgb(34, 57, 187) 0%, rgb(118, 48, 204) 50%);
+    color: black;
+    padding: 25px;
+    text-align: center;
+    font-size:18px;
+    border-radius: 15px;
+    width: 350px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+button:hover {
+    background: linear-gradient(to right, rgb(34, 57, 187) 0%, rgb(118, 48, 204) 50%);
+    font-size:18px;
+    color:rgb(52, 0, 68);
+    opacity: 50%;
+}
+
+main{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: linear-gradient (to right, blue, purple);
+  text-decoration-line: overline underline;
+  text-underline-offset: 3px;
+  text-decoration-color: linear-gradient (to right, blue, purple);
+  font-size: 70px;
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  font-weight: bold;
+}
+h2{
+  color: aliceblue;
+  font-size: 23px;
+}
+  .icon{
+    width: 2cm;
+    height: 2cm;
+  }

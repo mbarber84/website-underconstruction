@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harveys of Stretton Edit Vehicle</title>
+    <link rel="stylesheet" href = "stylesCustomer.css">
+
+</head>
+
+
+
+<body>
+    <header>
+        <img src="HOSImages/HOS logo-1 (2).jpg" alt = "Company logo"><p><a href="HOSindex.html"><button class = "homebtn" type="button">Home Page</button></a></p>
+
+    </header>
+
+
+
+    <main>
+        <h1>Welcome to the Harveys of Stretton</h1>
+        <h2>Enter Vehicle Details</h2>
+        <p>Please fill in all the details below correctly:</p>
+
+        <div class="testbox">
+            <form action="editVehicle.php" method="post" name="inputCustomer">
+              <div class="banner">
+                <h3>Edit Vehicle Details Form</h3>
+              </div>
+              <div class="item">
+                <p>Vehicle ID</p>
+                <div class="name-item">
+                   <input type="text" name="vehicleID" placeholder="VehicleID"  required />
+                </div>
+                </div>        
+
+              <div class="item">
+                <p>Vehicle</p>
+                <div class="name-item">
+                  <input type="text" name="vehicleStyle" placeholder="Vehicle Style" required />
+                  <input type="text" name="vehicleMake" placeholder="Vehicle Make" required />
+                  <input type="text" name="vehicleModel" placeholder="Vehicle Model" required />
+                  <input type="text" name="vehicleRegistration" placeholder="Vehicle Registration" required />
+                  <input type="text" name="year" placeholder="Year (YYYY)" required />
+                  <input type="text" name="transmission" placeholder="Transmission" required />
+                  <input type="text" name="engineSize" placeholder="Engine Size" required />
+                  <input type="text" name="vehicleMilage" placeholder="Vehicle Milage" required />
+                  <input type="text" name="colour" placeholder="Colour" required />
+                </div>
+              </div>
+              <div class="item">
+                <p>Price (£)</p>
+                <input type="text" name= "price" placeholder="Price" required />
+              </div>
+              <div class="item">
+                <p>Notes</p>
+                <textarea rows="5"></textarea>
+              </div>
+              <div class="btn-block">
+                <button type="submit" href="/">submit</button>
+                <button type="reset" href="/">Reset</button>
+              </div>
+            </form>
+          </div>        
+
+    </main>
+
+
+
+    <footer></footer>
+
+
+
+
+</body>
+
+
+
+</html>

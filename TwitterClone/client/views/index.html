@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Open+Sans:wght@300;400;700&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../public/style.css">
+    <link rel="stylesheet" href="../../../Styles.css">
+    
+    
+</head>
+
+<body>
+    <header>
+        <audio id="loonSound" src="../../../Audio/Loon-sound.mp3" preload="auto"></audio>
+        <img class="loon" src="../../../images/9GNasyjq8X-1.png" alt="Loon Logo">
+        <a class="mbHome" href="../../../index.html"><img class="icon homelogo" src="../../../images/LogoMe.jpg" alt = "Mathew Barber">Home Page</a>
+
+        <h1 class="title">Wailer (The Loon)</h1>
+    </header>
+
+    <main>
+        <form class="wailer_form">
+            <label for="name">Name: </label>
+            <input type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Your Name Here"
+            required>
+            <label for="">Wail: </label>
+            <textarea
+            name="content"
+            id="content"
+            cols="30"
+            rows="10"
+            maxlength="140"
+            required></textarea>
+            <button>Send</button>
+        </form>
+        <div class="wailer_container">
+            <div class="wail">
+                <h3>TestUser</h3>
+                <div class="wail_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nostrum sunt explicabo tempora,
+                        vitae, earum doloribus dolore excepturi dolorem placeat eligendi eum! <span class="tag-link">#testTag</span> Neque voluptatem quidem
+                        tempore ullam numquam quibusdam asperiores. <span class="user-link">@anotherUser</span> </p>
+                    <span class="date">04/04/2022</span>
+                </div>
+            </div>
+
+            <div class="wail">
+                <h3>TestUser</h3>
+                <div class="wail_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nostrum sunt explicabo tempora,
+                        vitae, earum doloribus dolore excepturi dolorem placeat eligendi eum! Neque voluptatem quidem
+                        tempore ullam numquam quibusdam asperiores.</p>
+                    <span class="date">04/04/2022</span>
+                </div>
+            </div>
+
+            <div class="wail">
+                <h3>TestUser</h3>
+                <div class="wail_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nostrum sunt explicabo tempora,
+                        vitae, earum doloribus dolore excepturi dolorem placeat eligendi eum! Neque voluptatem quidem
+                        tempore ullam numquam quibusdam asperiores.</p>
+                    <span class="date">04/04/2022</span>
+                </div>
+            </div>
+
+            </div>
+    </main>
+
+
+    <script src="../public/index.js"></script>
+</body>
+
+</html>
